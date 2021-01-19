@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Img = styled.img`
-  width: 300px;
+  width: 400px;
 `;
 
 const Jin = ({ ...banco }) => {

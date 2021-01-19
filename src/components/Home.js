@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styled from "styled-components";
 import Jhop from "./Jhop";
 import Jin from "./Jin";
@@ -21,7 +22,7 @@ const Home = () => {
         }
       ></Jin>
       <Title name={"Jin"} age={23}></Title>
-      <Jhop></Jhop>
+      <Jhop size={true}></Jhop>
       <Title name={"Jhop"} age={21}></Title>
     </Container>
   );
